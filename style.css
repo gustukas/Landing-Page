@@ -15,12 +15,13 @@
 .hlogo, .links {
     flex: 1 ;
     font-family: Helvetica, Arial, sans-serif;
-    padding-top: 5px;
+    
 }
 
 .hlogo {
     font-size: 24px;
     color: #F9FAF8;
+    
 }
 
 .links {
@@ -28,6 +29,7 @@
     display: flex;
     justify-content: end;
     gap: 1rem;
+    padding-top: 5px;
 }
 
 
@@ -54,7 +56,7 @@ a {
 
 
 .placeholder {
-    background-color: #E5E7EB ;
+    
     text-align: center;
     
 }
@@ -67,6 +69,7 @@ a {
 
 .text {
     font-family: Helvetica, Arial, sans-serif;
+    
 }
 
 .desc {
@@ -125,11 +128,64 @@ a {
     background-color: #E5E7EB;
     height: 450px;
     text-align: center;
-    margin-bottom: 1000px;
+    margin-bottom: 100px;
     padding-top: 200px;
 }
 
 .logoimg {
     width: 100px;
     height: 100px;
+}
+
+.top-title, .desc, .sign-up {
+    margin: 20px;
+}
+
+.author {
+    margin-left: 800px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    background-color: #3882f6 ;
+    height: 125px;
+    border-radius: 15px;
+}
+
+.button {
+    height: 40px;
+    width: 130px;
+    border: solid 2px white;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.thetext {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 200px;
+    font-family: Helvetica, Arial, sans-serif ;
+}
+
+.topcta {
+    font-weight: 800;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.bottomcta {
+    color: #b5bbc9;
+
+}
+
+.example {
+    width: 700px;
+    height: auto;
 }
